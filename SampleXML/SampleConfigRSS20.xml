@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<My_Collection id="root" nbrLines="30" updatePeriod="15">
+  <News id="channel" comment="News Feeds">
+    <CNN id="channel" comment="News feeds from CNN">
+      <CNN-World id="feed" link="http://rss.cnn.com/rss/cnn_world.rss" refMins="10" enable="Yes" />
+      <CNN-Money id="feed" link="http://rss.cnn.com/rss/money_latest.rss" refMins="10" enable="Yes" />
+    </CNN>
+    <FOX id="channel" comment="News feeds from FOX">
+      <FOX-Latest id="feed" link="http://feeds.foxnews.com/foxnews/latest" refMins="10" enable="Yes" />
+    </FOX>
+  </News>
+  <Shopping id="channel" comment="Feeds for Shopping">
+    <DealNews id="feed" link="http://s31.dlnws.com/dealnews/rss/todays-edition.xml" refMins="1" enable="Yes" />
+    <Ebay-Daily-Deal-ATOM id="feed" link="http://deals.ebay.com/feeds/rss" refMins="10" enable="Yes" />
+  </Shopping>
+  <Testing id="channel" comment="Feeds for Shopping">
+    <dd id="feed" link="C:\\demo\\dd.xml" refMins="10" enable="Yes" />
+  </Testing>
+</My_Collection>
